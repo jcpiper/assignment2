@@ -17,27 +17,27 @@ function test() {
   var fault = false;
 
   if (email == "" || email == null) {
-    wrong[index++] = "Email";
+    wrong[index++] = document.getElementById("email").name;
     fault = true;
   }
 
   if (fname == "" || fname == null) {
-    wrong[index++] = "First Name";
+    wrong[index++] = document.getElementById("firstName").name;
     fault = true;
   }
 
   if (lname == "" || lname == null) {
-    wrong[index++] = "Last Name";
+    wrong[index++] = document.getElementById("lastName").name;
     fault = true;
   }
 
   if(bday == "" || bday == null) {
-    wrong[index++] = "Birth Date";
+    wrong[index++] = document.getElementById("birthDate").name;
     fault = true;
   }
 
   if(pass == "" || pass == null) {
-    wrong[index++] = "Password";
+    wrong[index++] = document.getElementById("pass").name;
     fault = true;
   }
 
