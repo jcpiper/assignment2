@@ -1,0 +1,71 @@
+html {
+  font-size: 1.5rem;
+  font-family: "Century Schoolbook", serif;
+  /*background-color: burlywood;*/
+}
+
+section {
+  text-align: justify;
+}
+
+
+input[type=text] {
+  border: none;
+  border-bottom: solid 2px black;
+  background-color: transparent;
+}
+
+input[type=text]:hover {
+  border-bottom: solid 3px black;
+  width: 10rem;
+}
+
+input[type=email] {
+  border: none;
+  border-bottom: solid 2px black;
+  background-color: transparent;
+}
+
+input[type=email]:hover {
+  border-bottom: solid 3px black;
+  width: 10rem;
+}
+
+input[type=date] {
+  border: none;
+  border-bottom: solid 2px black;
+  background-color: transparent;
+}
+
+input[type=date]:hover {
+  border-bottom: solid 3px black;
+  width: 10rem;
+}
+input[type=password] {
+  border: none;
+  border-bottom: solid 2px black;
+  background-color: transparent;
+}
+
+input[type=password]:hover {
+  border-bottom: solid 3px black;
+  width: 10rem;
+}
+
+.generalForm {
+  margin: 5rem;
+}
+
+#errorMessage {
+  color: red;
+}
+
+#successMessage {
+  font-style: italic;
+}
+
+#passMessage {
+  font-syle: bold;
+}
+
+/* Thanks to W3 schools for some ideas on form styling: http://www.w3schools.com/css/css_form.asp */
